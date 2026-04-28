@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Inter:wght@400;500&display=swap');
+main{
+  background-color: #FCFAFA;
+}
+
+/*NAVBAR*/
+.epicLogo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;      /* Dimensione generosa ma bilanciata */
+  font-weight: 800;
+  color: var(--logo-color) !important;
+  letter-spacing: -0.5px; /* Leggermente più stretto per farlo sembrare un logo */
+  text-decoration: none;
+}
+
+.customNavbar {
+  background-color: var(--nav-bg) !important;
+  border-bottom: 1px solid #DCDCDC;
+  padding: 0.8rem 0;
+}
+
+.navLink {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-main) !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* ALERT */
+.alert {
+  background-color: #D6DBDF !important; /* Blu ardesia desaturato */
+  border: none !important;
+  color: #1A2A3A !important;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.alertTitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.alertText {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/*CARD*/
+.cardImg {
+  height: 350px; /* Un po' più alta per i libri */
+  width: 100%;
+}
+
+.cardBody {
+  height: 180px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Spinge il bottone sempre in fondo */
+  background-color: #ffffff;
+}
+
+.bookTitle {
+  color: #1A2A3A !important; /* L'important forza il colore sopra i default di Bootstrap */
+  font-family: 'Playfair Display', serif; /* Applichiamo il font elegante anche qui */
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #5D6D7E !important; /* Il nostro blu ardesia */
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #1A2A3A !important; /* Colore del logo al passaggio del mouse */
+}
