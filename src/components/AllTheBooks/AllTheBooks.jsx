@@ -8,7 +8,7 @@ import { useState } from "react"
 import SingleBook from "../SingleBook/SingleBook"
 import Form from 'react-bootstrap/Form';
 
-function AllTheBooks() {
+const AllTheBooks = ()=> {
     const [books, setBooks] = useState(fantasy)
     const [form, setForm] = useState("")
     return (

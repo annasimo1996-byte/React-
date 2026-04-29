@@ -1,6 +1,6 @@
 import { Alert, Container } from 'react-bootstrap';
 
-function Welcome() {
+const Welcome = ()=> {
   return (
     <Container className="my-4">
       <Alert className='alert'>
